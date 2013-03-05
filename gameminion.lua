@@ -898,7 +898,7 @@ end
 
 function gameminion:addFriend(friendID)
 	local params = "auth_token="..self.authToken
-	params = params.."&user_id="..friendID
+	params = params.."&friend_id="..friendID
 
 	local path = "friends.json"
 
